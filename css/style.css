@@ -43,18 +43,27 @@ p {
     color: #FF6B6B;
 }
 
-button {
+.btn-trial {
     background-color: #292F36;
     color: #FFFFFF;
     border: none;
     padding: 5px 50px;
     border-radius: 3px;
     position: relative;
-    bottom: 100px;
+    bottom: 70px;
 }
 
-button:hover {
+.btn-trial:hover {
     cursor: pointer;
-    border: 1px solid red;
-    
+    border: 1px solid #FFFFFF;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #292F36;
+    padding: 200px 100px;
+    background-color: #FFFFFF;
+}
+
+
