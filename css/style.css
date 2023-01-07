@@ -55,16 +55,19 @@ p {
 
 .btn-trial:hover {
     cursor: pointer;
-    border: 1px solid #FFFFFF;
+    color: #FF6B6B;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    border: 3px solid #292F36;
+    padding: 150px 100px;
+    background-color: #FFFFFF;
 }
 
 .input {
-    padding: 5px 100px;
+    margin-bottom: 10px;
 }
 
 
